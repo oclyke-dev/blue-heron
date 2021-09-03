@@ -16,9 +16,22 @@ pip install -e ${PATH_TO_ROOT}
 ```
 
 ### tests
-```
-pytest --pyarg blueheron
-```
+
+tox is reccomended
+
+#### tox
+
+install tox
+```pip install tox```
+
+run tox from the root directory
+```tox```
+
+#### pytest (not reccomended)
+make sure pytest is installed
+
+run pytest from the root directory
+```pytest```
 
 ## packaging
 
