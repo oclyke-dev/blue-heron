@@ -8,7 +8,7 @@ from blue_heron import Root, Drawing
 
 @pytest.fixture(scope='module')
 def test_board():
-  with open(Path(__file__).parent.parent/'src/blue_heron/data/test/ArtemisDevKit.brd', 'r') as f:
+  with open(Path(__file__).parent/'data/ArtemisDevKit.brd', 'r') as f:
     root = ET.parse(f).getroot()
   yield root
 
