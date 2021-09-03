@@ -1,6 +1,8 @@
 # blue-heron
 python package for interacting with AutoDesk Eagle files
 
+this is a pre-release version and the api is subject to change.
+
 ## installation
 
 
