@@ -19,3 +19,11 @@ pip install -e ${PATH_TO_ROOT}
 ```
 pytest --pyarg blueheron
 ```
+
+## packaging
+
+make sure the PyPA's build package is installed
+```python3 -m pip install --upgrade build```
+
+run build from the root dir
+```python3 -m build```
