@@ -92,3 +92,6 @@ class Element(MockElementTreeNode):
     package = next(xmltools.with_attributes(packages, {'name': package_name}))
     return package
 
+  @property
+  def attributes(self):
+    return xmltools.with_tags(self._root, 'attribute')
